@@ -1,0 +1,75 @@
+body{
+    background-color: grey;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;  
+    text-align: center;                                 
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.display {
+    width: auto;
+    grid-column: span 4;
+    background-color: rgb(84, 81, 81);
+    height: 60px;
+    border-radius: 5px;
+    text-align: right;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    padding-right: 10px; 
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+
+.calc{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    margin: 0 auto;
+}
+
+.Clear{
+    grid-column: span 2;
+    width: auto;
+}
+.a0{
+    grid-column: span 2;
+    width: 160px;
+}
+
+button{
+    background-color: orange;
+    border: 1px solid grey;
+    height: 60px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: solid;
+}
+
+button:hover {
+    background-color: #f3a13b;
+}
+
+.pressed{
+    transform: scale(0.95); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.active{
+    background-color: orange;
+    border: 1px solid black;
+    height: 60px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: solid;
+}

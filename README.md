@@ -15,4 +15,4 @@ This is a simple web-based calculator that supports basic arithmetic operations 
 - **JavaScript**: For the functionality and handling of user input
 
 ## Demo
-You can see a live demo of the project at [Your Demo URL] (if hosted, e.g., GitHub Pages).
+You can see a live demo of the project at https://akashsundaramoorthi.github.io/SimpleCalculatorwebsite/ .

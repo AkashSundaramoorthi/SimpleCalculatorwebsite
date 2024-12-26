@@ -13,6 +13,7 @@ h1{
 }
 
 .display {
+    overflow: hidden;
     width: auto;
     grid-column: span 4;
     background-color: rgb(84, 81, 81);
@@ -29,7 +30,7 @@ h1{
 
 
 .calc{
-    width: fit-content;
+    width: 320px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
